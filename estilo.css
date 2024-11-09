@@ -55,3 +55,35 @@ main {
     padding: 10px 0 10px 0;
     border-radius: 5%;
 }
+#branco{
+    background-color: white;
+    color: black;
+}
+table {
+    border: white 2px solid;
+}
+
+/* Adiconar uma tabela e estilzar com o seguinte style: th{
+    padding-right: 10px;
+}
+table{
+    border: black 3px solid;
+    border-color: #260D61;
+}
+thead {
+    background-color: #260D61;
+    color: #d0dbf8;
+    height: 15px;
+}
+th{
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+tbody{
+    background-color: #b399f0;
+}
+td{
+    text-align: center;
+} */
