@@ -1,0 +1,9 @@
+ - 6 receitas (3 Doces e 3 Salgados);
+ - Um carrosel em cada página (Doce e Salgado) BootStrap;
+ - Carrosel página inicial
+ - Colocar uma imagem da receitas e os ingrediantes ao lado, o mesmo para o modo de preparo;
+ - Uma tabela com preço de cada uma das receitas;
+ - HTML Semântico;
+ - Responsividade;
+ - FlexBox;
+ - Menu Fixado com z-index;
