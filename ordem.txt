@@ -7,3 +7,13 @@
  - Responsividade;
  - FlexBox;
  - Menu Fixado com z-index;
+ - Rodapé;
+
+
+ ** 
+ A Fazer: 
+    - Incluir um carrosel de imagens automático na página inicial;
+    - Carrosel de imagens com setinha na página de doces;
+    - Carrosel de imagens com ênfase no meio, na página de salgados;
+    - Mais um carrososel com legenda na página de salgados;
+    
