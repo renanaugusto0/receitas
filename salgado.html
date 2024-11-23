@@ -17,8 +17,33 @@
         </ul>
     </menu>
     <main>
-        <h1>Salgados, Modo de preparo, Ingredientes, e afins!</h1>
-        <div class="lado">
+        <h1>Salgados, Modo de preparo, Ingredientes e afins!</h1>
+        
+        <!-- Carrossel de Imagens -->
+        <div id="carouselSalgados" class="carousel slide mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/coxinha.png" class="d-block w-100" alt="Coxinha de Frango">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/guiche.png" class="d-block w-100" alt="Quiche de Queijo">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/salgadinhos.png" class="d-block w-100" alt="Salgadinho de Queijo">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselSalgados" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSalgados" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Receita 1 - Coxinha -->
+        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
             <div class="texto">
                 <h2>Coxinha de Frango</h2>
                 <h4>Ingredientes:</h4>
@@ -30,13 +55,6 @@
                     <li>1/2 xícara de óleo vegetal</li>
                     <li>Sal e pimenta a gosto</li>
                 </ul>
-            </div>
-            <div class="imagem">
-                <img src="imagens/coxinha.png" alt="Imagem de coxinha de frango">
-            </div>
-        </div>
-        <div class="lado">
-            <div class="texto">
                 <h4>Modo de preparo:</h4>
                 <ol>
                     <li>Misture o frango desfiado com a farinha, queijo, ovo, óleo e temperos.</li>
@@ -45,11 +63,12 @@
                 </ol>
             </div>
             <div class="imagem">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zJjR27UDmD0?si=5XDtXa6zz24gS8Vy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="imagens/coxinha.png" alt="Imagem de Coxinha de Frango" class="img-fluid rounded">
             </div>
         </div>
-        <br>
-        <div class="lado">
+
+        <!-- Receita 2 - Quiche -->
+        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
             <div class="texto">
                 <h2>Quiche de Queijo</h2>
                 <h4>Ingredientes:</h4>
@@ -61,13 +80,6 @@
                     <li>1/4 xícara de manteiga derretida</li>
                     <li>Sal e pimenta a gosto</li>
                 </ul>
-            </div>
-            <div class="imagem">
-                <img src="imagens/guiche.png" alt="Imagem de quiche de queijo">
-            </div>
-        </div>
-        <div class="lado">
-            <div class="texto">
                 <h4>Modo de preparo:</h4>
                 <ol>
                     <li>Pré-aqueça o forno a 180°C.</li>
@@ -77,94 +89,86 @@
                 </ol>
             </div>
             <div class="imagem">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/N5EeQASBiGw?si=itpP3mqSlmrWfgcV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/N5EeQASBiGw" title="Quiche de Queijo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="lado">
+
+        <!-- Receita 3 - Salgadinho -->
+        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
             <div class="texto">
                 <h2>Salgadinho rápido de Queijo</h2>
                 <h4>Ingredientes:</h4>
                 <ul>
                     <li>1 xícara de polvilho doce</li>
                     <li>1/2 xícara de queijo ralado</li>
-                    <li>1 ovos</li>
+                    <li>1 ovo</li>
                     <li>Sal a gosto</li>
                     <li>Água quente o suficiente para dar liga</li>
                 </ul>
-            </div>
-            <div class="imagem">
-                <img src="imagens/salgadinhos.png" alt="Imagem de salgadinho de queijo">
-            </div>
-        </div>
-        <div class="lado">
-            <div class="texto">
                 <h4>Modo de preparo:</h4>
                 <ol>
                     <li>Em uma tigela, misture o polvilho doce, o queijo ralado e o sal.</li>
                     <li>Adicione o ovo e a água quente aos poucos, mexendo até formar uma massa homogênea e que solte das mãos.</li>
                     <li>Modele os salgadinhos no formato desejado (bolinhas, barrinhas, etc.).</li>
                     <li>Aqueça óleo em uma panela e frite os salgadinhos até dourarem.</li>
-                    <li>Escorra em papel absorvente e sirva em seguida.</li>
                 </ol>
             </div>
             <div class="imagem">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/UO-hMUNciWo?si=4NmsxpdKpSFMNIqO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="imagens/salgadinhos.png" alt="Imagem de Salgadinho" class="img-fluid rounded">
             </div>
-            
         </div>
+
+        <!-- Tabela -->
         <center>
-        <table>
-            <!--Criando uma tabela-->
-            <thead> <!--Cabeçalho-->
-                <tr> <!--1 linha -->
-                    <th>Tipo de Evento</th> <!-- 1  coluna -->
-                    <th>Nome dos Artista</th>
-                    <th>Data do Evento</th>
-                    <th>Inteira</th>
-                    <th>Meia</th>
-                </tr>
-            </thead>
-            <tbody> <!--Corpo da Tabela-->
-                <tr>
-                    <td>Show</td>
-                    <td>Banda xyz</td>
-                    <td>5/10</td>
-                    <td>R$ 100</td>
-                    <td>R$ 50</td>
-                </tr>
-    
-                <tr>
-                    <td>Taetro</td>
-                    <td>O Enigma</td>
-                    <td>12/10/2024</td>
-                    <td>R$ 80</td>
-                    <td>R$ 40</td>
-                </tr>
-    
-                <tr>
-                    <td>Show</td>
-                    <td>Jazz Ella</td>
-                    <td>18/10/2024</td>
-                    <td>R$ 120</td>
-                    <td>R$ 60</td>
-                </tr>
-                <tr>
-                    <td>Dança</td>
-                    <td>Street Dance</td>
-                    <td>11/11/2024</td>
-                    <td>R$100</td>
-                    <td>R$50</td>
-                </tr>
-    
-            </tbody>
-        </table>
-    </center>
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Tipo de Evento</th>
+                        <th>Nome dos Artista</th>
+                        <th>Data do Evento</th>
+                        <th>Inteira</th>
+                        <th>Meia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Show</td>
+                        <td>Banda XYZ</td>
+                        <td>5/10</td>
+                        <td>R$ 100</td>
+                        <td>R$ 50</td>
+                    </tr>
+                    <tr>
+                        <td>Teatro</td>
+                        <td>O Enigma</td>
+                        <td>12/10/2024</td>
+                        <td>R$ 80</td>
+                        <td>R$ 40</td>
+                    </tr>
+                    <tr>
+                        <td>Show</td>
+                        <td>Jazz Ella</td>
+                        <td>18/10/2024</td>
+                        <td>R$ 120</td>
+                        <td>R$ 60</td>
+                    </tr>
+                    <tr>
+                        <td>Dança</td>
+                        <td>Street Dance</td>
+                        <td>11/11/2024</td>
+                        <td>R$ 100</td>
+                        <td>R$ 50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
     </main>
     <footer>
         <p>© 2024 Receitas de Doces e Salgados. Todos os direitos reservados. Desenvolvido por Renan</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-
