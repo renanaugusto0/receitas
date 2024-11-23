@@ -17,25 +17,42 @@
         </ul>
     </menu>
     <main>
-        <h1>Doces, Modo de preparo, Ingradientes, e afins!</h1>
-        <div class="lado">
+        <h1>Doces, Modo de preparo, Ingredientes e afins!</h1>
+        
+        <!-- Carrossel de Imagens -->
+        <div id="carouselDoces" class="carousel slide mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/brigadeiro.jpg" class="d-block w-100" alt="Brigadeiro">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/pave.jpg" class="d-block w-100" alt="Pavê">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/torta.jpg" class="d-block w-100" alt="Torta de Banana">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselDoces" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDoces" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Receita 1 - Brigadeiro -->
+        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
             <div class="texto">
                 <h2>Brigadeiro de Micro-ondas</h2>
                 <h4>Ingredientes:</h4>
                 <ul>
                     <li>1 Lata de Leite Condensado</li>
                     <li>1 Colher de sopa de manteiga</li>
-                    <li>7 Colheres de sopa de achocoltado em pó</li>
+                    <li>7 Colheres de sopa de achocolatado em pó</li>
                     <li>Chocolate granulado para enrolar</li>
                 </ul>
-            </div>
-            <div class="imagem">
-                <img src="imagens/brigadeiro.jpg" alt="Imagem de brigadeiro">
-            </div>
-            
-        </div>
-        <div class="lado">
-            <div class="texto">
                 <h4>Modo de preparo:</h4>
                 <ol>
                     <li>Em um recipiente próprio para micro-ondas, misture o leite condensado, a manteiga e o achocolatado.</li>
@@ -44,11 +61,14 @@
                 </ol>
             </div>
             <div class="imagem">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fZniigc8js4?si=sTD83vrU6DeteF2B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="imagens/brigadeiro.jpg" alt="Imagem de brigadeiro" class="img-fluid rounded">
             </div>
         </div>
-        <br>
-        <div class="lado">
+
+        
+
+        <!-- Receita 2 - Pavê -->
+        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
             <div class="texto">
                 <h2>Pavê de biscoito</h2>
                 <h4>Ingredientes:</h4>
@@ -56,66 +76,27 @@
                     <li>1 Pacote de biscoito champanhe</li>
                     <li>1 lata de leite condensado</li>
                     <li>1 caixa de creme de leite</li>
-                    <li>1 xícara de leita</li>
+                    <li>1 xícara de leite</li>
                     <li>2 colheres de sopa de achocolatado em pó</li>
                 </ul>
-            </div>
-            <div class="imagem">
-                <img src="imagens/pave.jpg" alt="imagem de pavê de biscoito">
-            </div>
-        </div>
-        <div class="lado">
-            <div class="texto">
                 <h4>Modo de preparo:</h4>
                 <ol>
-                    <li>Mistue o leite condensado, o creme de leite e o achocolatado em pó. Leve ao fogo até começar a ferver e virar um creme mais grosso</li>
+                    <li>Misture o leite condensado, o creme de leite e o achocolatado em pó. Leve ao fogo até começar a ferver e virar um creme mais grosso.</li>
                     <li>Em uma travessa, faça camadas de biscoito molhado no leite e cubra com o creme.</li>
                     <li>Repita até terminar os ingredientes, sempre finalizando com o creme. Deixe na geladeira por algumas horas e sirva gelado.</li>
                 </ol>
             </div>
             <div class="imagem">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/T4zigJcD7aA?si=BWgQVFcj6QfAjsy6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/T4zigJcD7aA" title="Pavê de Biscoito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="lado">
-            <div class="texto">
-            <h2>Torta de Banana com Canela</h2>
-            <h4>Ingredientes:</h4>
-            <ul>
-            <li>4 bananas maduras</li>
-            <li>1 xícara de açúcar</li>
-            <li>1/2 xícara de óleo vegetal</li>
-            <li>2 ovos</li>
-            <li>2 xícaras de farinha de trigo</li>
-            <li>1 colher de sopa de fermento em pó</li>
-            <li>1 colher de sopa de canela em pó</li>
-            <li>1 pitada de sal</li>
-            </ul>
-            </div>
-            <div class="imagem">
-            <img src="imagens/torta.jpg" alt="Imagem de torta de banana com canela">
-            </div>
-            </div>
-            <div class="lado">
-            <div class="texto">
-            <h4>Modo de preparo:</h4>
-            <ol>
-            <li>Pré-aqueça o forno a 180°C.</li>
-            <li>Amasse as bananas com um garfo até obter uma mistura homogênea.</li>
-            <li>Misture o açúcar, óleo, ovos, farinha, fermento, canela e sal em uma tigela.</li>
-            <li>Adicione a mistura de bananas à tigela e misture bem.</li>
-            <li>Despeje a mistura em uma forma untada e enfarinhada.</li>
-            <li>Asse por 40-45 minutos ou até que um palito inserido no centro saia limpo.</li>
-            <li>Deixe esfriar antes de servir.</li>
-            </ol>
-            </div>
-            <div class="imagem">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fMq0qM_nIz8?si=uKPA8V53MLUCYRL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            </div>
     </main>
     <footer>
         <p>© 2024 Receitas de Doces e Salgados. Todos os direitos reservados. Desenvolvido por Renan</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

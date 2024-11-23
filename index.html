@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <!-- Menu fixo -->
     <menu>
         <h1>Receitas | Doce & Salgado</h1>
         <ul>
@@ -16,14 +17,51 @@
             <li><h3><a href="salgado.html">Salgado</a></h3></li>
         </ul>
     </menu>
+
+    <!-- Conteúdo principal -->
     <main>
-        <h1>Seja muito bem vindo(a) ao meu site de receitas.</h1>
+        <h1>Seja muito bem-vindo(a) ao meu site de receitas.</h1>
         <h2>Aqui você poderá ter as melhores receitas salgadas e doces!</h2>
-        <img src="imagens/inicio.jpg">
+
+        <!-- Carrossel de imagens -->
+        <div id="carouselReceitas" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagens/doces.jpg" alt="Deliciosos doces">
+                    <div class="carousel-caption">
+                        <h5>Doces incríveis</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagens/salgados.jpg" alt="Salgados saborosos">
+                    <div class="carousel-caption">
+                        <h5>Salgados deliciosos</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagens/bolo.jpg" alt="Bolos de dar água na boca">
+                    <div class="carousel-caption">
+                        <h5>Bolos de dar água na boca</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselReceitas" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselReceitas" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
     </main>
+
+    <!-- Rodapé -->
     <footer>
         <p>© 2024 Receitas de Doces e Salgados. Todos os direitos reservados. Desenvolvido por Renan</p>
     </footer>
+
+    <!-- Seção de depoimentos -->
     <center>
         <br>
         <hr style="width: 50%;">
@@ -34,30 +72,8 @@
             <button>ENVIAR</button>
         </section>
     </center>
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Scripts do Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
