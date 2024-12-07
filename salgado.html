@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salgados</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
+    <script src="tabela.js" defer></script>
 </head>
+
 <body>
     <menu>
         <h1>Receitas | Doce & Salgado</h1>
         <ul>
-            <li><h3><a href="index.html">Início</a></h3></li>
-            <li><h3><a href="doces.html">Doces</a></h3></li>
-            <li><h3><a href="salgado.html">Salgado</a></h3></li>
+            <li>
+                <h3><a href="index.html">Início</a></h3>
+            </li>
+            <li>
+                <h3><a href="doces.html">Doces</a></h3>
+            </li>
+            <li>
+                <h3><a href="salgado.html">Salgado</a></h3>
+            </li>
         </ul>
     </menu>
     <main>
         <h1>Salgados, Modo de preparo, Ingredientes e afins!</h1>
-        
+
         <!-- Carrossel de Imagens -->
         <div id="carouselSalgados" class="carousel slide mb-5" data-ride="carousel">
             <div class="carousel-inner">
@@ -84,12 +94,16 @@
                 <ol>
                     <li>Pré-aqueça o forno a 180°C.</li>
                     <li>Misture o queijo, creme de leite, ovos, farinha e manteiga.</li>
-                    <li>Despeje a mistura em uma forma untada e leve ao forno por cerca de 25 minutos ou até que o topo esteja dourado e firme.</li>
+                    <li>Despeje a mistura em uma forma untada e leve ao forno por cerca de 25 minutos ou até que o topo
+                        esteja dourado e firme.</li>
                     <li>Deixe esfriar um pouco antes de servir.</li>
                 </ol>
             </div>
             <div class="imagem">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/N5EeQASBiGw" title="Quiche de Queijo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/N5EeQASBiGw"
+                    title="Quiche de Queijo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
 
@@ -108,7 +122,8 @@
                 <h4>Modo de preparo:</h4>
                 <ol>
                     <li>Em uma tigela, misture o polvilho doce, o queijo ralado e o sal.</li>
-                    <li>Adicione o ovo e a água quente aos poucos, mexendo até formar uma massa homogênea e que solte das mãos.</li>
+                    <li>Adicione o ovo e a água quente aos poucos, mexendo até formar uma massa homogênea e que solte
+                        das mãos.</li>
                     <li>Modele os salgadinhos no formato desejado (bolinhas, barrinhas, etc.).</li>
                     <li>Aqueça óleo em uma panela e frite os salgadinhos até dourarem.</li>
                 </ol>
@@ -120,47 +135,71 @@
 
         <!-- Tabela -->
         <center>
-            <table class="table table-bordered table-striped">
-                <thead class="thead-dark">
-                    <tr>
-                        <th>Tipo de Evento</th>
-                        <th>Nome dos Artista</th>
-                        <th>Data do Evento</th>
-                        <th>Inteira</th>
-                        <th>Meia</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Show</td>
-                        <td>Banda XYZ</td>
-                        <td>5/10</td>
-                        <td>R$ 100</td>
-                        <td>R$ 50</td>
-                    </tr>
-                    <tr>
-                        <td>Teatro</td>
-                        <td>O Enigma</td>
-                        <td>12/10/2024</td>
-                        <td>R$ 80</td>
-                        <td>R$ 40</td>
-                    </tr>
-                    <tr>
-                        <td>Show</td>
-                        <td>Jazz Ella</td>
-                        <td>18/10/2024</td>
-                        <td>R$ 120</td>
-                        <td>R$ 60</td>
-                    </tr>
-                    <tr>
-                        <td>Dança</td>
-                        <td>Street Dance</td>
-                        <td>11/11/2024</td>
-                        <td>R$ 100</td>
-                        <td>R$ 50</td>
-                    </tr>
-                </tbody>
+            <table>
+                <tr>
+                    <td>Ingrediente</td>
+                    <td>Link</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Total</td>
+                </tr>
+
+                <tr>
+                    <td>Polvilho Doce</td>
+                    <td><a
+                            href="https://www.casaevideo.com.br/polvilho-doce-sem-gluten-beijubom-500g-2914963/p?idsku=2841058&msclkid=e1081437fefd168e42dc7363c74a0d9e&utm_source=bing&utm_medium=cpc&utm_campaign=C%26V%20PMAX%20%7C%20Produtos%20%7C%201P&utm_term=2335637576001903&utm_content=C%26V%20PMAX%20%7C%20Top%20Produtos%20%7C%201P">Compre</a>
+                    </td>
+                    <td><input type="number" placeholder="Insira o preço" class="preco"></td>
+                    <td><input type="number" placeholder="Insira a quantidade" class="qtd"></td>
+                    <td class="total"></td>
+                </tr>
+
+                <tr>
+                    <td>Queijo Ralado</td>
+                    <td><a
+                            href="https://www.casaevideo.com.br/queijo-ralado-zero-lactose-40-gramas-3065701/p?msclkid=c3f3afbd6ae91c8d4840c8e950b8f506&utm_source=bing&utm_medium=cpc&utm_campaign=C%26V%20PMAX%20%7C%20Produtos%20%7C%201P&utm_term=2335637576001903&utm_content=C%26V%20PMAX%20%7C%20Top%20Produtos%20%7C%201P">Compre</a>
+                    </td>
+                    <td><input type="number" placeholder="Insira o preço" class="preco"></td>
+                    <td><input type="number" placeholder="Insira a quantidade" class="qtd"></td>
+                    <td class="total"></td>
+                </tr>
+
+                <tr>
+                    <td>Ovo</td>
+                    <td><a
+                            href="https://produto.mercadolivre.com.br/MLB-2203277955-kinder-ovo-natoons-kit-c6-unidades-de-20g-ferrero-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic">Compre</a>
+                    </td>
+                    <td><input type="number" placeholder="Insira o preço" class="preco"></td>
+                    <td><input type="number" placeholder="Insira a quantidade" class="qtd"></td>
+                    <td class="total"></td>
+                </tr>
+
+                <tr>
+                    <td>Sal</td>
+                    <td><a
+                            href="https://www.magazineluiza.com.br/sal-integral-fino-1kg-smart/p/gd6j778a7d/me/ssal/?utm_source=bing&utm_medium=cpc&utm_campaign=bing_eco_per_ven_sho_all_sor_3p_all-products-std&partner_id=77025&utm_term=77025&msclkid=488cc98ab9d01be6d95aaede8330bb6b&gclid=488cc98ab9d01be6d95aaede8330bb6b&gclsrc=3p.ds">Compre</a>
+                    </td>
+                    <td><input placeholder="Insira o preço" type="number" class="preco"></td>
+                    <td><input type="number" placeholder="Insira a quantidade" class="qtd"></td>
+                    <td class="total"></td>
+                </tr>
+
+                <tr>
+                    <td>Água</td>
+                    <td><a
+                            href="https://www.mercadolivre.com.br/agua-mineral-prata-fonte-sem-gas-garrafa-25-l/p/MLB17371546?pdp_filters=item_id%3AMLB4445741024&from=gshop&matt_tool=78665334&matt_word=&matt_source=bing&matt_campaign=MLB_ML_BING_AO_CPG-ALL-ALL_X_PLA_ALLB_TXS_ALL&matt_campaign_id=382858296&matt_ad_group=CPG&matt_match_type=e&matt_network=o&matt_device=c&matt_keyword=default&msclkid=c5e0972f49a0110e7df8f07b72a34083&utm_source=bing&utm_medium=cpc&utm_campaign=MLB_ML_BING_AO_CPG-ALL-ALL_X_PLA_ALLB_TXS_ALL&utm_term=4581390093500078&utm_content=CPG">Compre</a>
+                    </td>
+                    <td><input type="number" placeholder="Insira o preço" class="preco"></td>
+                    <td><input type="number" placeholder="Insira a quantidade" class="qtd"></td>
+                    <td class="total"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"></td>
+                    <td id="totalFinal"></td>
+                </tr>
             </table>
+
         </center>
     </main>
     <footer>
@@ -171,4 +210,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
