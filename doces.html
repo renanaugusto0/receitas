@@ -1,102 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doces</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-    <menu>
-        <h1>Receitas | Doce & Salgado</h1>
-        <ul>
-            <li><h3><a href="index.html">Início</a></h3></li>
-            <li><h3><a href="doces.html">Doces</a></h3></li>
-            <li><h3><a href="salgado.html">Salgado</a></h3></li>
-        </ul>
-    </menu>
-    <main>
-        <h1>Doces, Modo de preparo, Ingredientes e afins!</h1>
-        
-        <!-- Carrossel de Imagens -->
-        <div id="carouselDoces" class="carousel slide mb-5" data-ride="carousel">
+
+<body class="bg-light text-dark">
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-3" href="#">Receitas | Doce & Salgado</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="doces.html">Doces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="salgado.html">Salgados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <header class="container text-center mt-5 pt-5">
+        <h1 class="display-4 fw-bold">Doces: Encante seu Paladar</h1>
+        <p class="lead">Receitas doces irresistíveis para qualquer ocasião.</p>
+    </header>
+
+    <!-- Carrossel de Doces -->
+    <section class="mt-4">
+        <div id="carouselDoces" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagens/brigadeiro.jpg" class="d-block w-100" alt="Brigadeiro">
+                    <img src="imagens/brigadeiro.jpg" class="d-block w-100 rounded" alt="Brigadeiro">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="bg-dark p-2 rounded">Brigadeiro</h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imagens/pave.jpg" class="d-block w-100" alt="Pavê">
+                    <img src="imagens/pave.jpg" class="d-block w-100 rounded" alt="Pavê">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="bg-dark p-2 rounded">Pavê de Biscoito</h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imagens/torta.jpg" class="d-block w-100" alt="Torta de Banana">
+                    <img src="imagens/torta.jpg" class="d-block w-100 rounded" alt="Torta de Banana">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="bg-dark p-2 rounded">Torta de Banana</h5>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselDoces" role="button" data-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDoces" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselDoces" role="button" data-slide="next">
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDoces" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
+                <span class="visually-hidden">Próximo</span>
+            </button>
         </div>
+    </section>
 
-        <!-- Receita 1 - Brigadeiro -->
-        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
-            <div class="texto">
-                <h2>Brigadeiro de Micro-ondas</h2>
-                <h4>Ingredientes:</h4>
-                <ul>
-                    <li>1 Lata de Leite Condensado</li>
-                    <li>1 Colher de sopa de manteiga</li>
-                    <li>7 Colheres de sopa de achocolatado em pó</li>
-                    <li>Chocolate granulado para enrolar</li>
-                </ul>
-                <h4>Modo de preparo:</h4>
-                <ol>
-                    <li>Em um recipiente próprio para micro-ondas, misture o leite condensado, a manteiga e o achocolatado.</li>
-                    <li>Leve ao micro-ondas por 3 a 4 minutos, mexendo a cada 1 minuto, até a mistura começar a desgrudar do fundo.</li>
-                    <li>Deixe esfriar um pouco, modele os brigadeiros e passe no granulado. Prontinho!</li>
-                </ol>
+    <!-- Receitas de Doces -->
+    <section class="container my-5">
+        <div class="row g-4">
+            <!-- Receita 1 - Brigadeiro -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow">
+                    <img src="imagens/brigadeiro.jpg" class="card-img-top" alt="Brigadeiro">
+                    <div class="card-body">
+                        <h3 class="card-title">Brigadeiro de Micro-ondas</h3>
+                        <p class="card-text"><strong>Ingredientes:</strong></p>
+                        <ul>
+                            <li>1 Lata de Leite Condensado</li>
+                            <li>1 Colher de sopa de manteiga</li>
+                            <li>7 Colheres de sopa de achocolatado em pó</li>
+                            <li>Chocolate granulado para enrolar</li>
+                        </ul>
+                        <p class="card-text"><strong>Modo de preparo:</strong></p>
+                        <ol>
+                            <li>Misture o leite condensado, a manteiga e o achocolatado.</li>
+                            <li>Leve ao micro-ondas por 3 a 4 minutos, mexendo a cada 1 minuto.</li>
+                            <li>Deixe esfriar, modele os brigadeiros e passe no granulado.</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
-            <div class="imagem">
-                <img src="imagens/brigadeiro.jpg" alt="Imagem de brigadeiro" class="img-fluid rounded">
+
+            <!-- Receita 2 - Pavê -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow">
+                    <img src="imagens/pave.jpg" class="card-img-top" alt="Pavê">
+                    <div class="card-body">
+                        <h3 class="card-title">Pavê de Biscoito</h3>
+                        <p class="card-text"><strong>Ingredientes:</strong></p>
+                        <ul>
+                            <li>1 Pacote de biscoito champanhe</li>
+                            <li>1 Lata de leite condensado</li>
+                            <li>1 Caixa de creme de leite</li>
+                            <li>1 Xícara de leite</li>
+                            <li>2 Colheres de sopa de achocolatado em pó</li>
+                        </ul>
+                        <p class="card-text"><strong>Modo de preparo:</strong></p>
+                        <ol>
+                            <li>Prepare um creme misturando o leite condensado, o creme de leite e o achocolatado.</li>
+                            <li>Em uma travessa, alterne camadas de biscoito molhado no leite e creme.</li>
+                            <li>Finalize com creme e deixe gelar antes de servir.</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        
-
-        <!-- Receita 2 - Pavê -->
-        <div class="receita d-flex align-items-center justify-content-center flex-wrap">
-            <div class="texto">
-                <h2>Pavê de biscoito</h2>
-                <h4>Ingredientes:</h4>
-                <ul>
-                    <li>1 Pacote de biscoito champanhe</li>
-                    <li>1 lata de leite condensado</li>
-                    <li>1 caixa de creme de leite</li>
-                    <li>1 xícara de leite</li>
-                    <li>2 colheres de sopa de achocolatado em pó</li>
-                </ul>
-                <h4>Modo de preparo:</h4>
-                <ol>
-                    <li>Misture o leite condensado, o creme de leite e o achocolatado em pó. Leve ao fogo até começar a ferver e virar um creme mais grosso.</li>
-                    <li>Em uma travessa, faça camadas de biscoito molhado no leite e cubra com o creme.</li>
-                    <li>Repita até terminar os ingredientes, sempre finalizando com o creme. Deixe na geladeira por algumas horas e sirva gelado.</li>
-                </ol>
-            </div>
-            <div class="imagem">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/T4zigJcD7aA" title="Pavê de Biscoito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <p>© 2024 Receitas de Doces e Salgados. Todos os direitos reservados. Desenvolvido por Renan</p>
+    <!-- Rodapé -->
+    <footer class="bg-danger text-center text-white py-3">
+        <p class="mb-0">© 2024 Receitas de Doces e Salgados. Todos os direitos reservados. Desenvolvido por Renan.</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
